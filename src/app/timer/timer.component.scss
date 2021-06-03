@@ -1,0 +1,33 @@
+.control{
+    display: flex;
+    justify-content: space-around;
+    button{
+        padding: 1em 2em;
+        border-radius: 5px;
+        margin: 0 1em;
+        background-color: #332F27;
+        color: #ABC9BB;
+        @media (max-width: 500px){
+            padding: 1em 1em;
+        }
+    }
+    button:hover{
+        background-color: #6666E2;
+        cursor: pointer;
+    }
+}
+.timer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    margin: 1rem auto;
+    font-size: 4em;
+    color: #6666E2;
+}
+.result{
+    margin-top: 2em;
+    font-size: 2em;
+}

@@ -1,0 +1,10 @@
+<div class="timer__container">
+<div class="timer">{{timerService.time}}</div>
+
+<div class="control">
+    <button (click)="startTimer()">{{timerService.startText}}</button>
+    <button (dblclick)="waitTimer()">{{timerService.waitText}}</button>
+    <button  (click)="resetTimer()">Reset</button>
+ </div>
+ <span class="result">{{timerService.result}}</span>
+</div>
